@@ -1,0 +1,167 @@
+{
+    "index": {
+        "name": "总览",
+        "key": "index",
+        "action": "/overview",
+        "normaluserNeed": true,
+        "secondLevel": [
+            {
+                "cn": "态势总览",
+                "en": "overview"
+            },
+            {
+                "cn": "每日监测",
+                "en": "overview_day"
+            }
+        ]
+    },
+    "malicious": {
+        "name": "威胁监测",
+        "key": "malicious",
+        "action": "/m_app",
+        "normaluserNeed": true,
+        "secondLevel": [
+            {
+                "cn": "病毒感染",
+                "en": "m_app"
+            },
+            {
+                "cn": "恶意域名",
+                "en": "m_domain"
+            },
+            {
+                "cn": "恶意IP",
+                "en": "m_ip"
+            },
+            {
+                "cn": "恶意邮箱",
+                "en": "m_email"
+            },
+            {
+                "cn": "恶意网址",
+                "en": "m_url"
+            },
+            {
+                "cn": "恶意FTP",
+                "en": "m_ftp"
+            },
+            {
+                "cn": "隐私泄露",
+                "en": "m_privacy"
+            },
+            {
+                "cn": "网络攻击",
+                "en": "m_attack"
+            }
+        ]
+    },
+    "event": {
+        "name": "网络活动",
+        "key": "event",
+        "action": "/e_email",
+        "normaluserNeed": true,
+        "secondLevel": [
+            {
+                "cn": "电子邮件",
+                "en": "e_email"
+            },
+            {
+                "cn": "文件传输",
+                "en": "e_file"
+            },
+            {
+                "cn": "上网行为",
+                "en": "e_http"
+            },
+            {
+                "cn": "域名解析",
+                "en": "e_dns"
+            },
+            {
+                "cn": "FTP连接",
+                "en": "e_ftp"
+            },
+            {
+                "cn": "VPN连接",
+                "en": "e_vpn"
+            },
+            {
+                "cn": "SSL会话",
+                "en": "e_ssl"
+            },
+            {
+                "cn": "QQ会话",
+                "en": "e_qq"
+            }
+        ]
+    },
+    "asset": {
+        "name": "用户画像",
+        "key": "asset",
+        "action": "/a_analysis",
+        "normaluserNeed": true,
+        "secondLevel": [
+            {
+                "cn": "用户分析",
+                "en": "a_analysis"
+
+            },
+            {
+                "cn": "IMEI分析",
+                "en": "a_imei"
+            },
+            {
+                "cn": "邮箱分析",
+                "en": "a_email"
+            },
+            {
+                "cn": "QQ分析",
+                "en": "a_qq"
+            },
+            {
+                "cn": "手机号分析",
+                "en": "a_phone"
+            },
+            {
+                "cn": "IMSI分析",
+                "en": "a_imsi"
+            }
+        ]
+    },
+    "configuration": {
+        "name": "配置管理",
+        "key": "configuration",
+        "action": "/c_rule",
+        "normaluserNeed": true,
+        "secondLevel": [
+            {
+                "cn": "自定义规则",
+                "en": "c_rule"
+            },
+            {
+                "cn": "存储管理",
+                "en": "c_memory"
+            },
+            {
+                "cn": "设备管理",
+                "en": "c_management"
+            }
+        ]
+    },
+    "usermanagement": {
+        "name": "用户管理",
+        "key": "usermanagement",
+        "action": "/u_management",
+        "normaluserNeed": false,
+        "secondLevel": [
+            {
+                "cn": "用户管理",
+                "en": "u_management"
+            },
+            {
+                "cn": "测试Excel",
+                "en": "excel"
+            }
+        ]
+    }
+}

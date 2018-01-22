@@ -1,0 +1,135 @@
+.layout-top {
+    background: #22262e;
+}
+
+.layout-top .layout-wrapper {
+    padding: 0 50px;
+    background-color: #22262e;
+}
+
+.layout-top .layout-header .layout-wrapper{
+    background: #343842 !important;
+}
+
+.layout-top .layout-logo {
+    width: 120px;
+    height: 32px;
+    background: none;
+    border-radius: 4px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.layout-top .layout-subheader {
+    height: 48px;
+    border-bottom: 1px solid #2a2e38;
+    background: #2a2e38;
+}
+
+.layout-top .layout-subheader .layout-wrapper{
+    /*height: 48px;*/
+    /*border-bottom: 1px solid #2a2e38;*/
+    background: #2a2e38;
+}
+
+.layout-top .layout-container {
+    background: #22262e;
+    position: relative;
+    padding: 10px 24px 24px 24px;
+    overflow: hidden;
+    border-radius: 4px;
+    min-height:calc(100vh - 177px) !important;
+
+}
+
+.layout-top .layout-header .ant-menu-dark.ant-menu-horizontal {
+    border-bottom-color: #343842;
+}
+
+.layout-top .layout-header .menuText {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    /*color: #b8c7ce !important;*/
+    color: #999999 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.layout-top .layout-subheader .menuText {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #999999 !important;
+}
+
+.layout-top .layout-subheader .ant-menu-dark.ant-menu-horizontal {
+    border-bottom-color: #2a2e38;
+}
+
+
+.layout-top .layout-footer {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.layout-top .index {
+    margin-left: 145px !important;
+    background: #2a2e38;
+    color: white;
+}
+
+.layout-top .malicious {
+    margin-left: 220px !important;
+    background: #2a2e38;
+}
+
+.layout-top .event {
+    margin-left: 335px !important;
+    background: #2a2e38;
+}
+
+.layout-top .asset {
+    margin-left: 445px !important;
+    background: #2a2e38;
+}
+
+.layout-top .configuration {
+    margin-left: 550px !important;
+    background: #2a2e38;
+}
+
+.layout-top .usermanagement {
+    margin-left: 670px !important;
+    background: #2a2e38;
+}
+
+.layout-top .ant-menu-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.layout-top .layout-header .ant-menu-item-selected .menuText {
+    color: white !important;
+}
+
+
+.layout-top .layout-wrapper .username{
+    padding-top: 20px;
+    float: right;
+    color: white;
+    font-size: 16px;
+}
+
+.layout-top .layout-subheader .layout-wrapper .ant-menu-item-selected a[class='menuText']{
+    /*background-color: white;*/
+    color: white !important;
+}
+
+.layout-top .layout-subheader .layout-wrapper a[class='menuText']:hover{
+    /*background-color: white;*/
+    color: white !important;
+}
